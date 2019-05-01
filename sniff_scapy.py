@@ -4,10 +4,10 @@
 # this needs to be on the same folder as sniff_scapy.py
 #             -> easy_install pygeoip
 
-import scapy.all import *
+from scapy.all import *
 import pygeoip
 from IPy import IP as IPLIB
-from socket import *
+from socket import*
 import time
 
 #Usage: python sniff_scapy.py
@@ -66,7 +66,7 @@ def printPacket(sourceIP,destinationIP):
   saveToFile(traceInfo)
 
 
-def statMonitoring(pkt):
+def startMonitoring(pkt):
   try:
     if pkt.haslayer(IP):
       #get the source IP address
@@ -94,5 +94,5 @@ def main():
   # start sniffing by filtering only the IP packets without storing anything inside the memory.
   sniff(prn=startMonitoring,store=0,filter="ip")
 
-if __name == "__main__":
-  main()
+if __name__ == "__main__":
+	main()
