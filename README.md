@@ -1,5 +1,5 @@
 # KaliFoundation
-Some scripts for penetration testing, using Python and other Kali's tools.
+Some scripts for penetration testing using Python and other Kali's tools.
 
 
 * Network Penetration Testing Python Sources: 
