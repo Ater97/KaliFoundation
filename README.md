@@ -16,7 +16,9 @@ Some scripts for penetration testing using Python and other Kali's tools.
     * https://app.pluralsight.com/library/courses/penetration-testing-automation-using-python-kali-linux/table-of-contents
     
 * Other
-    * 
+    * https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
+    * https://www.kali.org/downloads/
+    * https://sourceforge.net/projects/metasploitable/
 
 
 ***Only for curiosity purposes*** :innocent:
