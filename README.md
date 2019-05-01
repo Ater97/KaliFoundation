@@ -13,4 +13,4 @@ Some scripts for penetration testing using Python and other Kali's tools.
     * https://www.offensive-security.com/metasploit-unleashed/meterpreter-basics/
 
 
-***Only for curiosity purposes***
+***Only for curiosity purposes*** :innocent:
