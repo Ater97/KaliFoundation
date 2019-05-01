@@ -35,5 +35,5 @@ def main():
   # Call the start server function
   startServer(portNumber)
   
-if __name == "__main__":
-  main()
+if __name__ == "__main__":
+    main()
